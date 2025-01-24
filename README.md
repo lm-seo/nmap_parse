@@ -3,4 +3,6 @@ Script en Python que mejora la salida de resultados de un escaneo con nmap y org
 
 #Cómo usar el script:
 
-nmap -p- --open -sS -min-rate 5000 -vvv -n -Pn <IP Objetivo> -oG firstScanPorts
+##1. Realizar el escaneo con nmap
+
+> nmap -p- --open -sS -min-rate 5000 -vvv -n -Pn <IP Objetivo> -oG firstScanPorts
